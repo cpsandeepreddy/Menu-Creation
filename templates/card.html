@@ -1,0 +1,13 @@
+Items:</br>
+{% if s %}
+     {% for i in s %}
+           <a href='/show/{{i.id}}/'> {{i.name}} </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           
+           <a href='/delete/{{i.id}}/' id='{{i.id}}' class='delete_button'>Delete</a>
+ </br>{%endfor%}
+{% else %}
+     No Recipes Found{%endif%}</br>
+<a href='/add/'> Add new</a>
+
+
+

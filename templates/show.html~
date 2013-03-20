@@ -1,0 +1,14 @@
+<html>
+<head>
+</head>
+<body>
+Details</br>
+Title:{{s.name}}
+</br>
+Type:{{s.types}}</br>
+Ingradients:{{s.ingradients}}</br>
+Time_to_cook:{{s.time_to_cook}}</br>
+Steps:{{s.steps}}</br>
+</body>
+</html>
+

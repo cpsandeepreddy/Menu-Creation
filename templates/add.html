@@ -1,0 +1,13 @@
+<html>
+<head>
+<b>Add the Recepient </b>
+</head>
+<body>
+<form name='input' action='/add/' method="post">
+{%csrf_token%}
+{{form.as_p}}
+<input type="submit" value="Add Recepient">
+</form>
+</body>
+</html>
+

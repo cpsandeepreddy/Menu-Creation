@@ -1,0 +1,14 @@
+<html>
+<head>
+<b>Add the Recepient </b>
+</head>
+<body>
+{%for i in c%}
+{{i}}
+{%endfor%}
+<form name='input' action='/' method="post">
+<input type="submit" value="Add Recepient">
+</form>
+</body>
+</html>
+
